@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #444;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+#vordergrund #navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  
+  font-size: 20px;
+}
+
+#vordergrund #navigation ul li {
+  margin: 0.2em 0;
+  list-style: inside none;
+}
+
+#vordergrund #navigation a {
+  display: block;
+  padding: 0.5em 1em;
+  background-color: rgba( 120, 80, 40, 0.8 );
+  color: white;
+  text-decoration: none;
+}
+
+#vordergrund .text {
+  float: left;
+  width: 40%;
+  margin: 1em;
+  padding: 2em;
+  background-color: rgba( 50, 50, 50, 0.5 );
+}
+
+#hintergrund {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#hintergrund img {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  color: #999;
+}
