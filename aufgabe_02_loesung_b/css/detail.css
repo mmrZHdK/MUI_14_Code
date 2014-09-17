@@ -1,0 +1,31 @@
+.menubutton.back {
+  width: 4em;
+}
+.menubutton.back a {
+  color: white;
+  text-decoration: none;
+}
+
+.detail {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #dde;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.seite {
+  padding: 1em 5%;
+}
+.seite img {
+  float: left;
+  width: 40%;
+  margin: 0 5% 1em 0;
+}
+.seite h1 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
